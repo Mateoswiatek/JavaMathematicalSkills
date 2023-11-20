@@ -9,8 +9,7 @@ public class Main {
         Random random = new Random();
         Operations[] operations = Operations.values();
 
-
-        System.out.printf("Enter the number of tests");
+        System.out.printf("Enter the number of tests\n");
         int n = scanner.nextInt();
 
         System.out.printf("Enter the epsilon");
