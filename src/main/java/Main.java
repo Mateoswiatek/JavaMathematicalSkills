@@ -54,6 +54,5 @@ public class Main {
             Duration difference = Duration.between(before, Instant.now());
             System.out.format("Your calculation time is %d.%d seconds!",difference.toSecondsPart(), difference.toMillisPart());
         }
-
     }
 }
